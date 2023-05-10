@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel = "icon" href = "favicon-32x32.png" type = "image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: hsl(30, 38%, 92%);
+    }
+    .flex{
+        margin-top: 220px;
+        display: flex;
+        height: 350px;
+        /* border: 2px solid red; */
+        justify-content: center;
+    }
+    .containers{
+        /* border: 2px solid black; */
+        border-radius: 10px;
+        width: 30%;
+        display: flex;
+    }
+    .childs{
+        /* border: 1px solid black; */
+        width: 50%;
+    }
+    #c1{
+        background: url("image-product-desktop.jpg");
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+    }
+    #c2{
+        padding: 0px 5px 5px 5px;
+        background-color: white;
+        border-radius: 0px 10px 10px 0px;
+
+    }
+    .cart{
+        background-color: hsl(158, 36%, 37%);
+        padding: 8px 20px;
+        height: 35px;
+        box-sizing: border-box;
+        width: 200px;
+        text-align: center;
+        border-radius: 6px;
+        margin-left: 14px;
+        display: inline-block;
+    }
+    .cart:hover {
+        background-color: rgb(3, 158, 158);
+        cursor: pointer;
+    }
+    .cart a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat',sans-serif;
+        font-size: smaller;
+    }
+    .childs h1{
+        font-family: 'Fraunces', serif ;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: left;
+        margin-left: 15px;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    .childs h6{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 500;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-right: 15px;
+        font-size: 12px;
+        color: grey;
+        line-height: 20px;
+    }
+    .childs h2{
+        font-family: 'Fraunces', serif ;
+        font-weight: 700;
+        margin-left: 16px;
+        color: darkcyan;
+    }
+    .childs h2 span{
+        font-size: 11px;
+        color: grey;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+</style>
+<body>
+    <div class="flex">
+        <div id="box" class="containers">
+            <div id="c1" class="childs">
+                
+            </div>
+            <div id="c2" class="childs">
+                <h6>P E R F U M E</h6>
+                <h1>Gabrielle Essence Eau De Parfum</h1>
+                <h6>product description here like the qualities or anything else that can attract the customers</h6>
+                <h2>$149.99<span><s>$169.99</s></span></h2>
+                <div id="button" class="cart">
+                    <a href="https://www.linkedin.com/in/shashwat-mishra-32a38922a">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
